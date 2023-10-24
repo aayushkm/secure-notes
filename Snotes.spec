@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['notesVault.py'],
+    ['snotes.py'],
     pathex=[],
     binaries=[],
     datas=[('icon.ico', '.'), ('./icons/open.png', '.'), ('./icons/preview.png', '.'), ('./icons/save.png', '.'), ('./icons/single.png', '.')],
@@ -21,7 +21,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='notesVault',
+    name='snotes',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
