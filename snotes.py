@@ -202,7 +202,7 @@ class NotesVault(QWidget):
         main_layout.addLayout(button_layout)
 
         self.setLayout(main_layout)
-        self.setWindowTitle('NotesVault')
+        self.setWindowTitle('SNotes')
         self.resize(960, 640)
         self.show()
 
